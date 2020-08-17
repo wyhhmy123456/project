@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <!-- 排序按钮 -->
+    <button>默认排序</button>
+    <button>升序排序</button>
+    <button>降序排序</button>
+    <!-- 渲染的列表 -->
+    <div class="list">
+
+    </div>
+
+    <!-- 分页的结构：分页插件，结构保持一致 -->
+    <div class="pagelist">
+        <div class="m-style page">
+        </div>
+    </div>
+
+    <!-- 引入js -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 懒加载 -->
+    <script src="script/jquery.lazyload.js"></script>
+    <!-- 分页插件 -->
+    <script src="script/jquery.pagination.js"></script>
+    <!-- 自定义的js文件 -->
+    <script src="script/list.js"></script>
+</body>
+
+</html>
